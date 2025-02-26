@@ -5,6 +5,8 @@ CFLAGS = -Wall -Wextra -std=c11
 SRCDIR = ./src
 BUILDDIR = ./build
 
+
+
 # declareer alle .c files en gebruik de * wildcard om simpelweg alle .c bestanden te selecteren in de SRCDIR
 CFILES = $(wildcard $(SRCDIR)/*.c)
 # declareer de corresponderende .o files via subsititutie en renaming
