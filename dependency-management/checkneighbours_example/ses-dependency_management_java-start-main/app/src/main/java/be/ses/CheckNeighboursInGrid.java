@@ -6,13 +6,13 @@ import java.util.List;
 
 public class CheckNeighboursInGrid {
     public static void main(String[] args) {
-        // Example usage
         List<Integer> grid = Arrays.asList(
             0, 0, 1, 0,
             1, 1, 0, 2,
             2, 0, 1, 3,
             0, 1, 1, 1
         );
+
         int width = 4;
         int height = 4;
         int indexToCheck = 5;
@@ -24,7 +24,7 @@ public class CheckNeighboursInGrid {
     public static Iterable<Integer> getSameNeighboursIds(Iterable<Integer> grid, int width, int height, int indexToCheck) {
         List<Integer> result = new ArrayList<>();
         List<Integer> gridList = new ArrayList<>();
-
+        
         // Convert Iterable to List
         for (int value : grid) {
             gridList.add(value);
@@ -32,7 +32,7 @@ public class CheckNeighboursInGrid {
 
         // Ensure index is valid
         if (indexToCheck < 0 || indexToCheck >= gridList.size()) {
-            return result; // Return empty list if index is out of bounds
+            return result;
         }
 
         int targetValue = gridList.get(indexToCheck);
