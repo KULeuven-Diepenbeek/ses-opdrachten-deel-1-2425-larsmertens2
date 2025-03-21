@@ -2,3 +2,4 @@
 ./dependency-management/checkneighbours/build/
 ./dependency-management/checkneighbours_example/.gradle/
 ./dependency-management/checkneighbours_example/build/
+![example workflow](https://github.com/larsmertens2/ses-opdrachten-deel-1-2425-larsmertens2/actions/workflows/CI.yml/badge.svg)
