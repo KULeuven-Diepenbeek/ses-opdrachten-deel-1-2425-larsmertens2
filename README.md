@@ -1,1 +1,1 @@
-![example workflow](https://github.com/larsmertens2/ses-opdrachten-deel-1-2425-larsmertens2/actions/workflows/CI.yml/badge.svg)
+![example workflow](https://github.com/KULeuven-Diepenbeek/ses-opdrachten-deel-1-2425-larsmertens2/actions/workflows/CI.yml/badge.svg)
